@@ -1,10 +1,4 @@
 {
-  "containerEnv": {
-    "TEST_VAR1": "${secrets:TEST_VAR1}",
-    "TEST_VAR2": "${secrets:TEST_VAR2}"
-    "TEST_VAR3": "TEST3_VALUE"
-  },
-  "postCreateCommand": "chmod +x .devcontainer/post-create.sh && .devcontainer/post-create.sh",
   //Add recommended secrets 
   "secrets": {
     "TEST_VAR1": {
