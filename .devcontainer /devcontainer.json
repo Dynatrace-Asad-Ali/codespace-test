@@ -1,6 +1,7 @@
 {
   "containerEnv": {
     "TEST_VAR": "${secrets:TEST_VAR}"
+    "TEST_VAR3": "TEST3_VALUE"
   },
   //Add recommended secrets 
   "secrets": {
