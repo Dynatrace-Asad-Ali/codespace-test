@@ -1,11 +1,21 @@
-{
-  //Add recommended secrets 
-  "secrets": {
-    "TEST_VAR1": {
-      "description": "my TEST_VAR1"
-    },
-    "TEST_VAR4": {
-      "description": "my TEST_VAR4"
-    }
-  }
+"secrets": {
+   "TEST_VAR10": {
+     "description": "my TEST_VAR10"
+   },
+   "TEST_VAR20": {
+     "description": "my TEST_VAR20"
+   },
+   "TEST_VAR30": {
+     "description": "my TEST_VAR30"
+   },
+   "TEST_VAR40": {
+     "description": "my TEST_VAR40"
+   }
+ },
+ "remoteEnv": {
+   "TEST_VAR10": "${localEnv:TEST_VAR10}",
+   "TEST_VAR20": "${localEnv:TEST_VAR20}",
+   "TEST_VAR30": "${localEnv:TEST_VAR30}",
+   "TEST_VAR40": "${localEnv:TEST_VAR40}"
+ }
 }
