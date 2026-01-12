@@ -5,10 +5,10 @@
   //Add recommended secrets 
   "secrets": {
     "TEST_VAR": {
-      "description": my TEST_VAR"
+      "description": "my TEST_VAR"
     },
     "TEST_VAR2": {
-      "description": my TEST_VAR2"
+      "description": "my TEST_VAR2"
     }
   }
 }
